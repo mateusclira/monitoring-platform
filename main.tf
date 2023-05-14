@@ -2,7 +2,7 @@ terraform {
   backend "azurerm" {
       resource_group_name  = "mateusclira-tfstate"
       storage_account_name = "mateuscliratfstate"
-      container_name       = "mateuscliratfstatect"
+      container_name       = "mateuscliramonitoring"
       key                  = "terraform.tfstate"
   }
   required_providers {

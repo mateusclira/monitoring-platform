@@ -1,7 +1,7 @@
 variable "cname" {
-  description = "Company Name"
+  description = "General Name"
   type        = string
-  default     = "liratech"
+  default     = "monitoring"
 }
 
 variable "region" {
